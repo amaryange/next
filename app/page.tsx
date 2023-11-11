@@ -53,11 +53,13 @@ export default function Page() {
               src="/hero-desktop.png"
               alt="MDN"
               className="hidden md:block"
+              loading="lazy"
           />
           <img
               src="/hero-mobile.png"
               alt="MDN"
               className="block md:hidden"
+              loading="lazy"
           />
         </div>
       </div>
